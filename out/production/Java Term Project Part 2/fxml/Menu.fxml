@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="584.0" prefWidth="689.0" style="-fx-background-color: #152238;">
+         <children>
+            <Button fx:id="exitSystem" layoutX="485.0" layoutY="477.0" mnemonicParsing="false" onAction="#ExitSystem" prefHeight="54.0" prefWidth="151.0" style="-fx-background-color: #125538;" text="Exit System" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="showMarketList" layoutX="487.0" layoutY="270.0" mnemonicParsing="false" onAction="#ShowMarketList" prefHeight="54.0" prefWidth="151.0" style="-fx-background-color: #125538;" text="Show Market List" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="sellPlayer" layoutX="486.0" layoutY="337.0" mnemonicParsing="false" onAction="#SellPlayer" prefHeight="54.0" prefWidth="151.0" style="-fx-background-color: #125538;" text="Sell Player" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="buyPlayer" layoutX="485.0" layoutY="405.0" mnemonicParsing="false" onAction="#BuyPlayer" prefHeight="54.0" prefWidth="151.0" style="-fx-background-color: #125538;" text="Buy Player" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="showPlayerList" layoutX="487.0" layoutY="120.0" mnemonicParsing="false" onAction="#showPlayerList" prefHeight="54.0" prefWidth="151.0" style="-fx-background-color: #125538;" text="Show Player List" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="search" layoutX="487.0" layoutY="195.0" mnemonicParsing="false" onAction="#Search" prefHeight="54.0" prefWidth="151.0" style="-fx-background-color: #125538;" text="Search" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Label fx:id="menu" layoutX="457.0" layoutY="44.0" text="Main Menu" textFill="WHITE">
+               <font>
+                  <Font name="Constantia Bold" size="38.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imageView" fitHeight="584.0" fitWidth="429.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

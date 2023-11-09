@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="506.0" prefWidth="701.0" style="-fx-background-color: #3A6289;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PlayerDetailsController">
+   <children>
+      <Label fx:id="playerDetails" layoutX="259.0" layoutY="46.0" text="Player Details" textFill="WHITE">
+         <font>
+            <Font name="Constantia Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="playerName" layoutX="284.0" layoutY="113.0" text="Player Name: " textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="country" layoutX="284.0" layoutY="154.0" text="Country:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="age" layoutX="284.0" layoutY="193.0" text="Age:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="height" layoutX="284.0" layoutY="231.0" text="Height:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="club" layoutX="282.0" layoutY="272.0" text="Club:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="position" layoutX="284.0" layoutY="314.0" text="Position:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="number" layoutX="283.0" layoutY="358.0" text="Number:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="weeklySalary" layoutX="281.0" layoutY="403.0" text="Weekly Salary:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="getPlayerName" layoutX="414.0" layoutY="113.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="getCountry" layoutX="372.0" layoutY="154.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="getAge" layoutX="335.0" layoutY="193.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="getHeight" layoutX="358.0" layoutY="231.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="getClub" layoutX="335.0" layoutY="272.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="getPosition" layoutX="372.0" layoutY="314.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="getNumber" layoutX="372.0" layoutY="358.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="getWeeklySalary" layoutX="419.0" layoutY="403.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button fx:id="back" layoutX="613.0" layoutY="443.0" mnemonicParsing="false" onAction="#Back" prefHeight="38.0" prefWidth="64.0" style="-fx-background-color: #125538;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <ImageView fx:id="imageView" fitHeight="277.0" fitWidth="214.0" layoutX="34.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
