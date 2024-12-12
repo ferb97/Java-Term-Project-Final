@@ -1,6 +1,6 @@
 # Football Player Database System
 
-This project is a **Football Player Database System** implemented in Java, featuring a **GUI built using JavaFX and SceneBuilder**. It manages player information for football clubs and allows operations like searching, adding players, generating reports, and facilitating a player marketplace using **Java Networking** with concurrency support.
+This project is a **Football Player Database System** implemented in Java, featuring a **GUI built using JavaFX and SceneBuilder**. It manages player information for football clubs and allows operations like searching, showing details, and buying and selling of a player using **Java Networking** with concurrency support.
 
 ## Features
 
@@ -16,7 +16,7 @@ This project is a **Football Player Database System** implemented in Java, featu
   - Jersey Number
   - Weekly Salary
 - Clubs are preloaded with **5 players each**, with a maximum of **7 players per club**.
-- Users can login as the following 5 clubs: Manchester United, Manchester City, Chelsea, Liverpool, Arsenal
+- Users can login as the following 5 clubs: Manchester United, Manchester City, Chelsea, Liverpool, Arsenal.
 
 ### Main Menu Options
 1. **Search Players**: Search for players based on various criteria:
@@ -36,7 +36,7 @@ This project is a **Football Player Database System** implemented in Java, featu
   - Players can be bought from a centralized marketplace.
   - Changes in the marketplace are synchronized across different club interfaces in real-time using **Java Networking**.
   - Ensures consistent marketplace updates across multiple open sessions for different clubs.
-4. **Exit System**: Save all changes to `players.txt` and exit the program.
+5. **Exit System**: Save all changes to `players.txt` and exit the program.
 
 ### GUI with JavaFX
 - **User Interface**:
