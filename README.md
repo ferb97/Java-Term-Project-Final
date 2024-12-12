@@ -38,14 +38,6 @@ This project is a **Football Player Database System** implemented in Java, featu
   - Ensures consistent marketplace updates across multiple open sessions for different clubs.
 5. **Exit System**: Save all changes to `players.txt` and exit the program.
 
-### GUI with JavaFX
-- **User Interface**:
-  - Developed using **JavaFX** with the help of **SceneBuilder**.
-  - Intuitive navigation for player management and marketplace operations.
-- **Dynamic Views**:
-  - Display player statistics and details.
-  - Interactive club and player search functionality.
-
 ## Technologies Used
 - **Java Collections** for managing player data.
 - **JavaFX and SceneBuilder** for building the graphical user interface.
