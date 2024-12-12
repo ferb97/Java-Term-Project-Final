@@ -4,7 +4,6 @@ This project is a **Football Player Database System** implemented in Java, featu
 
 ## Features
 
-### Core Functionality
 - Maintains a **database of players** using Java Collections.
 - Each player is represented as an object with the following attributes:
   - Name
