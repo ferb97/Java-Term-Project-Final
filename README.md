@@ -44,7 +44,7 @@ This project is a **Football Player Database System** implemented in Java, featu
 
 ## Images
 <div style="display: flex; flex-wrap: wrap; gap: 15px;">
-    <img src="Login1.jpg" alt="Login" width="150" height="200">
-    <img src="Club_Home1.jpg" alt="Club Home" width="150" height="200">
-    <img src="Player_Details1.jpg" alt="Player Details" width="150" height="200">
+    <img src="Login1.jpg" alt="Login" width="250" height="200">
+    <img src="Club_Home1.jpg" alt="Club Home" width="250" height="200">
+    <img src="Player_Details1.jpg" alt="Player Details" width="250" height="200">
 </div>
