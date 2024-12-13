@@ -42,7 +42,9 @@ This project is a **Football Player Database System** implemented in Java, featu
 - **JavaFX and SceneBuilder** for building the graphical user interface.
 - **Java Networking** for implementing the marketplace functionality with real-time updates.
 
-## Screenshots
-![Login](Login1.jpg)
-![Club_Home](Club_Home1.jpg)
-![Player_Details](Player_Details1.jpg)
+## Images
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
+    <img src="Login1.jpg" alt="Login" width="600">
+    <img src="Club_Home1.jpg" alt="Club Home" width="600">
+    <img src="Player_Details1.jpg" alt="Player Details" width="600">
+</div>
